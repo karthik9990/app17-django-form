@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e08420ba-f347-45b7-8869-e22387ffbb88" name="Changes" comment="Added index.html&#10;Added SMTP email sending details in settings, Added views, forms, models and functionality of the page by importing all required libraries">
+    <list default="true" id="e08420ba-f347-45b7-8869-e22387ffbb88" name="Changes" comment="Added admin page, username and password, &#10;filtered out inside by creating a new class FormAdmin">
+      <change afterPath="$PROJECT_DIR$/job_application/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/job_application/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/job_application/templates/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/job_application/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/job_application/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/job_application/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/job_application/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/job_application/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/job_application/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/job_application/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/job_application/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -96,13 +100,22 @@
       <option name="project" value="LOCAL" />
       <updated>1726676726469</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added admin page, username and password, &#10;filtered out inside by creating a new class FormAdmin">
+      <option name="closed" value="true" />
+      <created>1726681314078</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726681314078</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Added index.html&#10;Added SMTP email sending details in settings, Added views, forms, models and functionality of the page by importing all required libraries" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added index.html&#10;Added SMTP email sending details in settings, Added views, forms, models and functionality of the page by importing all required libraries" />
+    <MESSAGE value="Added admin page, username and password, &#10;filtered out inside by creating a new class FormAdmin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added admin page, username and password, &#10;filtered out inside by creating a new class FormAdmin" />
   </component>
 </project>
